@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  srcDir: 'src',
   title: '🔊 Audio Visualizer',
   description: 'Some audio visualizer examples.',
   themeConfig: {
@@ -22,7 +23,7 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/bmm/audio-viz' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/y80/audio-viz' }],
   },
 
   vite: {
